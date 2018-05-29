@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LayoutAvances</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_adapter">AdapterActivity</string>
+    <string name="title_activity_single_choice">SingleChoiceActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_liste_view_example">ListeViewExample</string>
+</resources>

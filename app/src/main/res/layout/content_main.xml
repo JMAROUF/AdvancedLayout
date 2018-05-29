@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jamal.layoutavances.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="100dp">
+
+        <Button
+            android:id="@+id/gridExample"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="grid example" />
+
+        <Button
+            android:id="@+id/simpleChoiceExample"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="simple choice ex" />
+
+        <Button
+            android:id="@+id/arrayAdapterExample"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="array adapter  ex" />
+
+        <Button
+            android:id="@+id/testExample"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="test example" />
+
+        <Button
+        android:id="@+id/menuTest"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="menu example" />
+
+        <Button
+            android:id="@+id/alertTest"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="alert example" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
